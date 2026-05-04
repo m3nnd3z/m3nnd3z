@@ -51,7 +51,6 @@ App interactiva con modelos 3D sobre el espacio.
 
 ---
 
-## 📊 GitHub Stats
 
 ## 📊 GitHub Stats
 
