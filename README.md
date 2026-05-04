@@ -8,7 +8,7 @@
 
 ## 🧠 Sobre mí
 
-Actualmente trabajo como desarrollador de software, enfocado en backend con PHP y Symfony, y con Typescript en Next.js participando en proyectos reales con lógica de negocio compleja, y desarrollo de webs.
+Actualmente trabajo como desarrollador de software, enfocado en backend con PHP y Symfony, y con TypeScript en Next.js participando en proyectos reales con lógica de negocio compleja y desarrollo de webs.
 
 Tengo experiencia diseñando APIs, trabajando con arquitectura por capas y aplicando buenas prácticas como SOLID.
 
@@ -16,29 +16,11 @@ También desarrollo interfaces frontend con React y Node, conectando aplicacione
 
 ---
 
-## ⚙️ Tecnologías principales
+## ⚙️ Tecnologías
 
-### Backend
-- PHP · Symfony
-- Node.js · Express
-- Java
-
-### Frontend
-- React · TypeScript · JavaScript
-- HTML · CSS · SCSS
-
-### Bases de datos
-- PostgreSQL · MySQL
-
-### DevOps
-- Docker
-- Vercel · Render · Scaleway
-
-### Otros
-- RabbitMQ (sistemas asíncronos)
-- Git · GitHub
-- Arquitectura hexagonal · SOLID
-- Gestión de firmas electrónicas con Docuseal
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=php,symfony,ts,js,react,nodejs,java,postgres,mysql,docker,git,github,vercel&perline=7" />
+</p>
 
 ---
 
@@ -55,17 +37,29 @@ También desarrollo interfaces frontend con React y Node, conectando aplicacione
 
 ## 📂 Proyectos destacados
 
-### 🌐 Kalima Website
-Plataforma web en producción con enfoque en SEO, rendimiento y experiencia de usuario.
-kalima.es
+### 🌐 Kalima Website  
+Plataforma web en producción con enfoque en SEO, rendimiento y experiencia de usuario.  
+👉 https://kalima.es  
 
-### 🌐 Alos Website
-Plataforma web actualmente en desarrollo con enfoque en banca privada.
-alos-rose.vercel.app
+### 🌐 Alos Website  
+Plataforma web actualmente en desarrollo con enfoque en banca privada.  
+👉 https://alos-rose.vercel.app  
 
-### 🎮 CosmicExplorer (TFG)
-App interactiva con modelos 3D sobre el espacio.
-https://cosmic-explorer-tfg2dam.vercel.app/home
+### 🎮 CosmicExplorer (TFG)  
+App interactiva con modelos 3D sobre el espacio.  
+👉 https://cosmic-explorer-tfg2dam.vercel.app/home  
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ibon4301&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibon4301&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
 ---
 
