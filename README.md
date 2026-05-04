@@ -52,15 +52,11 @@ App interactiva con modelos 3D sobre el espacio.
 ---
 
 
-## 📊 GitHub Stats
+## 📌 Actualmente
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ibon4301&show_icons=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibon4301&layout=compact&theme=tokyonight" />
-</p>
+- Mejorando proyectos web con foco en backend, APIs y arquitectura.
+- Trabajando con Symfony, PHP, TypeScript, React y Next.js.
+- Construyendo una presencia profesional en GitHub con proyectos reales y bien documentados.
 
 ---
 
