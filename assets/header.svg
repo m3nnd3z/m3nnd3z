@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Ibon Balea - Backend Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08120D"/>
+      <stop offset="0.55" stop-color="#122E22"/>
+      <stop offset="1" stop-color="#1B4332"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="46%" r="62%">
+      <stop offset="0" stop-color="#2D6A4F" stop-opacity="0.60"/>
+      <stop offset="0.6" stop-color="#1B4332" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#08120D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f7f5"/>
+      <stop offset="0.5" stop-color="#c9d4ce"/>
+      <stop offset="1" stop-color="#8fa39a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3D27A"/>
+      <stop offset="0.5" stop-color="#E0B84C"/>
+      <stop offset="1" stop-color="#A9781A"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="4.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Una katana horizontal, mango a la izquierda, punta a la derecha. Centro ~ x=165 -->
+    <symbol id="katana" overflow="visible">
+      <rect x="0" y="-4.5" width="70" height="9" rx="3.5" fill="#241708"/>
+      <g stroke="#08120D" stroke-width="1.3" opacity="0.55">
+        <line x1="6"  y1="-4.5" x2="12" y2="4.5"/>
+        <line x1="16" y1="-4.5" x2="22" y2="4.5"/>
+        <line x1="26" y1="-4.5" x2="32" y2="4.5"/>
+        <line x1="36" y1="-4.5" x2="42" y2="4.5"/>
+        <line x1="46" y1="-4.5" x2="52" y2="4.5"/>
+        <line x1="56" y1="-4.5" x2="62" y2="4.5"/>
+      </g>
+      <ellipse cx="74" cy="0" rx="4.5" ry="13" fill="url(#gold)"/>
+      <path d="M80,-5 L300,-4 L330,0 L300,4 L80,5 Z" fill="url(#steel)"/>
+      <path d="M84,-1.3 L300,-1.1" stroke="#ffffff" stroke-width="0.9" opacity="0.55"/>
+    </symbol>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#aura)"/>
+
+  <!-- Santoryu: tres espadas cruzadas de fondo -->
+  <g opacity="0.42">
+    <g transform="translate(600,140) scale(0.66)">
+      <!-- espada horizontal (la de la boca) -->
+      <g transform="translate(-165,0)"><use href="#katana"/></g>
+      <!-- espada "/" -->
+      <g transform="rotate(-30) translate(-165,0)"><use href="#katana"/></g>
+      <!-- espada "\" -->
+      <g transform="scale(-1,1)"><g transform="rotate(-30) translate(-165,0)"><use href="#katana"/></g></g>
+    </g>
+  </g>
+
+  <!-- Brasas verdes que ascienden -->
+  <g>
+    <circle cx="230" cy="240" r="2.6" fill="#52B788">
+      <animate attributeName="cy" values="245;35" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="360" cy="240" r="1.8" fill="#74C69D">
+      <animate attributeName="cy" values="250;50" dur="8s" begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="8s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="240" r="2.2" fill="#E0B84C">
+      <animate attributeName="cy" values="245;45" dur="7.2s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.75;0" dur="7.2s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="960" cy="240" r="1.6" fill="#52B788">
+      <animate attributeName="cy" values="250;60" dur="9s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.65;0" dur="9s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1030" cy="240" r="2.3" fill="#74C69D">
+      <animate attributeName="cy" values="245;40" dur="6.8s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="6.8s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="240" r="1.7" fill="#E0B84C">
+      <animate attributeName="cy" values="250;55" dur="8.5s" begin="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0" dur="8.5s" begin="2.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Placa sutil tras el texto para contraste -->
+  <ellipse cx="600" cy="122" rx="360" ry="70" fill="#08120D" opacity="0.30"/>
+
+  <!-- Nombre + subtítulo -->
+  <g text-anchor="middle" font-family="'Segoe UI', Verdana, Geneva, sans-serif">
+    <text x="600" y="128" font-size="62" font-weight="700" letter-spacing="3" fill="url(#gold)" filter="url(#glow)">
+      Ib&#243;n Balea
+      <animate attributeName="opacity" from="0" to="1" dur="1.1s" fill="freeze"/>
+    </text>
+    <rect x="470" y="150" width="260" height="2.5" rx="1.25" fill="#E0B84C" opacity="0.6"/>
+    <text x="600" y="186" font-size="21" letter-spacing="4" fill="#D8C3A5">
+      BACKEND DEVELOPER &#183; PHP &amp; SYMFONY
+      <animate attributeName="opacity" from="0" to="1" dur="1.7s" fill="freeze"/>
+    </text>
+  </g>
+
+  <!-- Destello que barre el banner -->
+  <rect x="-260" y="0" width="150" height="260" fill="url(#shine)" opacity="0.0" transform="skewX(-18)">
+    <animate attributeName="x" values="-260;1300" dur="6s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.14;0" dur="6s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Línea base dorada -->
+  <rect x="0" y="256" width="1200" height="4" fill="url(#gold)" opacity="0.85"/>
+</svg>

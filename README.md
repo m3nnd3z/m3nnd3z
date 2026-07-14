@@ -1,6 +1,6 @@
 <!-- ======================= HEADER ======================= -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1410,45:1B4332,100:2D6A4F&height=210&section=header&text=Ib%C3%B3n%20Balea&fontSize=52&fontColor=E0B84C&animation=fadeIn&fontAlignY=34&desc=Backend%20Developer%20%C2%B7%20PHP%20%26%20Symfony&descAlignY=54&descSize=18&descColor=D8C3A5" width="100%"/>
+  <img src="./assets/header.svg" width="100%"/>
 </p>
 
 <!-- ======================= ZORO BANNER ======================= -->
@@ -205,7 +205,7 @@ En el frontend combino **React, TypeScript y Next.js**, conectando aplicaciones 
 <!-- ======================= SNAKE ======================= -->
 <h3>
   <img src="https://api.iconify.design/game-icons/snake.svg?color=%23E0B84C&width=22" />
-  &nbsp;Santoryu sobre el tablero de contribuciones
+  &nbsp;Tablero de contribuciones
 </h3>
 
 <p align="center">
@@ -267,5 +267,5 @@ En el frontend combino **React, TypeScript y Next.js**, conectando aplicaciones 
 
 <!-- ======================= FOOTER ======================= -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D6A4F,55:1B4332,100:0A1410&height=110&section=footer" width="100%"/>
+  <img src="./assets/footer.svg" width="100%"/>
 </p>
