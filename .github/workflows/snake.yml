@@ -1,0 +1,36 @@
+name: Generar animación de la serpiente
+
+on:
+  # Se regenera cada 12 horas
+  schedule:
+    - cron: "0 */12 * * *"
+  # Permite lanzarla a mano desde la pestaña Actions
+  workflow_dispatch:
+  # Y en cada push a main
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generar SVG de la serpiente
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-zoro.svg?color_snake=#E0B84C&color_dots=#0A1410,#1B4332,#2D6A4F,#40916C,#52B788
+            dist/snake-zoro-dark.svg?color_snake=#E0B84C&color_dots=#0A1410,#1B4332,#2D6A4F,#40916C,#52B788&dark_mode=true
+
+      - name: Publicar en la rama output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
