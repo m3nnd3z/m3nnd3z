@@ -185,8 +185,13 @@ En el frontend combino **React, TypeScript y Next.js**, conectando aplicaciones 
 </h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=m3nnd3z&show_icons=true&hide_border=true&bg_color=0A1410&title_color=E0B84C&icon_color=52B788&text_color=D8C3A5" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m3nnd3z&layout=compact&hide_border=true&bg_color=0A1410&title_color=E0B84C&text_color=D8C3A5&langs_count=8" width="40%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=m3nnd3z&theme=gruvbox" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=m3nnd3z&theme=gruvbox&utcOffset=2" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=m3nnd3z&theme=gruvbox" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=m3nnd3z&theme=gruvbox" width="49%" />
 </p>
 
 <p align="center">
