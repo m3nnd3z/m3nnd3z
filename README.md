@@ -261,7 +261,7 @@ En el frontend combino **React, TypeScript y Next.js**, conectando aplicaciones 
 
 <p align="center">
   <img src="https://api.iconify.design/game-icons/katana.svg?color=%2352B788&width=22" />
-  &nbsp;<i>Nada por detrás — siempre hacia delante, construyendo proyectos reales</i>&nbsp;
+  &nbsp;<i>Siempre hacia delante, construyendo proyectos reales</i>&nbsp;
   <img src="https://api.iconify.design/game-icons/katana.svg?color=%2352B788&width=22" />
 </p>
 
